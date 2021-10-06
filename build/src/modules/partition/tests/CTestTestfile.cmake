@@ -1,0 +1,16 @@
+# CMake generated Testfile for 
+# Source directory: /home/yongjae/calamares_cmb/calamares/src/modules/partition/tests
+# Build directory: /home/yongjae/calamares_cmb/calamares/build/src/modules/partition/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(partitionjobtest "/home/yongjae/calamares_cmb/calamares/build/partitionjobtest")
+set_tests_properties(partitionjobtest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/yongjae/calamares_cmb/calamares/build:" _BACKTRACE_TRIPLES "/usr/share/ECM/modules/ECMAddTests.cmake;114;add_test;/home/yongjae/calamares_cmb/calamares/CMakeModules/CalamaresAddTest.cmake;34;ecm_add_test;/home/yongjae/calamares_cmb/calamares/src/modules/partition/tests/CMakeLists.txt;17;calamares_add_test;/home/yongjae/calamares_cmb/calamares/src/modules/partition/tests/CMakeLists.txt;0;")
+add_test(partitionclearmountsjobtest "/home/yongjae/calamares_cmb/calamares/build/partitionclearmountsjobtest")
+set_tests_properties(partitionclearmountsjobtest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/yongjae/calamares_cmb/calamares/build:" _BACKTRACE_TRIPLES "/usr/share/ECM/modules/ECMAddTests.cmake;114;add_test;/home/yongjae/calamares_cmb/calamares/CMakeModules/CalamaresAddTest.cmake;34;ecm_add_test;/home/yongjae/calamares_cmb/calamares/src/modules/partition/tests/CMakeLists.txt;33;calamares_add_test;/home/yongjae/calamares_cmb/calamares/src/modules/partition/tests/CMakeLists.txt;0;")
+add_test(partitioncreatelayoutstest "/home/yongjae/calamares_cmb/calamares/build/partitioncreatelayoutstest")
+set_tests_properties(partitioncreatelayoutstest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/yongjae/calamares_cmb/calamares/build:" _BACKTRACE_TRIPLES "/usr/share/ECM/modules/ECMAddTests.cmake;114;add_test;/home/yongjae/calamares_cmb/calamares/CMakeModules/CalamaresAddTest.cmake;34;ecm_add_test;/home/yongjae/calamares_cmb/calamares/src/modules/partition/tests/CMakeLists.txt;44;calamares_add_test;/home/yongjae/calamares_cmb/calamares/src/modules/partition/tests/CMakeLists.txt;0;")
+add_test(partitionautomounttest "/home/yongjae/calamares_cmb/calamares/build/partitionautomounttest")
+set_tests_properties(partitionautomounttest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/yongjae/calamares_cmb/calamares/build:" _BACKTRACE_TRIPLES "/usr/share/ECM/modules/ECMAddTests.cmake;114;add_test;/home/yongjae/calamares_cmb/calamares/CMakeModules/CalamaresAddTest.cmake;34;ecm_add_test;/home/yongjae/calamares_cmb/calamares/src/modules/partition/tests/CMakeLists.txt;59;calamares_add_test;/home/yongjae/calamares_cmb/calamares/src/modules/partition/tests/CMakeLists.txt;0;")
+add_test(partitiondevicestest "/home/yongjae/calamares_cmb/calamares/build/partitiondevicestest")
+set_tests_properties(partitiondevicestest PROPERTIES  ENVIRONMENT "QT_PLUGIN_PATH=/home/yongjae/calamares_cmb/calamares/build:" _BACKTRACE_TRIPLES "/usr/share/ECM/modules/ECMAddTests.cmake;114;add_test;/home/yongjae/calamares_cmb/calamares/CMakeModules/CalamaresAddTest.cmake;34;ecm_add_test;/home/yongjae/calamares_cmb/calamares/src/modules/partition/tests/CMakeLists.txt;66;calamares_add_test;/home/yongjae/calamares_cmb/calamares/src/modules/partition/tests/CMakeLists.txt;0;")
